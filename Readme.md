@@ -2,6 +2,8 @@
 
 ### Noise
 
+https://1florki.github.io/jsutils2/noise.js
+
 ```javascript
 
 // default values
@@ -35,6 +37,8 @@ shift : Array (default: [0, 0, 0])
 
 
 ### Vector
+
+https://1florki.github.io/jsutils2/vector.js
 
 ```javascript
 let vec = new Vector() // default 0, 0, 0
