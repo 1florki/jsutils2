@@ -22,11 +22,17 @@ noise.getNormalized(0, 0, 0);
 ```
 
 min : Number (default: 0)
+
 max : Number (default: 1)
+
 scl (scale) : Number (default: 1)
+
 per (persistence) : Number (default: 1)
+
 pow (power) : Number (default: 1)
+
 shift : Array (default: [0, 0, 0])
+
 
 ### Vector
 
