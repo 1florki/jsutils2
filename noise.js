@@ -52,4 +52,7 @@ export class Noise {
   getNormalizedValue(x, y, z) {
     return this.getNormalized(x, y, z);
   }
+  getColor(x, y, z) {
+     return this.getNormalized(x, y, z);
+  }
 }
