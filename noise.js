@@ -27,7 +27,9 @@ export class Noise {
   
     this.simplex = new SimplexNoise(opt.seed || Math.random());
   }
-  
+  setSeed(seed) {
+    this.simplex = new SimplexNoise(seed);
+  }
   setShift(x, y, z) {
     this.shift = [x || 0, y || 0, z || 0];
   }
